@@ -1,7 +1,7 @@
 # DeadAirOverlay
 An electron overlay that shows the time in seconds since the microphone has gone silent.
 
-It looks like this
+It looks like this  
 ![image](https://github.com/user-attachments/assets/8478b184-0ca0-4b52-94fa-3885d116fc45)
 
 In the system tray, the 'Move' menu option makes it always-on-top and click-thru.

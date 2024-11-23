@@ -1,0 +1,33 @@
+{
+  "name": "deadairoverlay",
+  "productName": "deadairoverlay",
+  "version": "0.0.1",
+  "description": "Dead Air Overlay displays the seconds of silence of your microphone",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.5.0",
+    "@electron-forge/maker-deb": "^7.5.0",
+    "@electron-forge/maker-rpm": "^7.5.0",
+    "@electron-forge/maker-squirrel": "^7.5.0",
+    "@electron-forge/maker-zip": "^7.5.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.5.0",
+    "@electron-forge/plugin-fuses": "^7.5.0",
+    "@electron/fuses": "^1.8.0",
+    "@types/electron": "^1.6.12",
+    "electron": "33.2.0"
+  },
+  "keywords": [],
+  "author": "Knoff",
+  "license": "MIT",
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1",
+    "electron-squirrel-startup": "^1.0.1"
+  }
+}

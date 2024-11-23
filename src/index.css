@@ -1,0 +1,20 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Impact', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+  display:flex
+  justify-content: space-between;
+  color: #7fff00;
+  overflow: hidden;
+  -webkit-text-stroke: 0.04em black;
+}
+
+
+*{
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+  margin: 0;
+  padding: 0;
+}

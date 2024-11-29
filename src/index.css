@@ -8,7 +8,7 @@ body {
   justify-content: space-between;
   color: #7fff00;
   overflow: hidden;
-  -webkit-text-stroke: 0.04em black;
+  text-shadow: -0.1em -0.1em 0 #000, 0.1em -0.1em 0 #000, -0.1em 0.1em 0 #000, 0.1em 0.1em 0 #000;
 }
 
 
